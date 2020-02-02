@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_10_LongestSumSubArrayLengthInPositiveArray.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_11_LongestSumSubArrayLength.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_12_LongestLessSumSubArrayLength.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_13_SmallSum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_14_SortNaturalNumberArray.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_15_EvenInEvenOddInOdd.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_16_SubArrayMaxSum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_17_SubMatrixMaxSum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_18_FindOneLessValueIndex.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_19_SubArrayMaxProduct.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_20_PrintMaxTopK.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_21_MaxOneBorderSize.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_22_MultiplyExceptOwn.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_23_PartitionArray.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_24_MinPathValue.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_25_SmallestMissNum.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/chapter8_array_and_matrix/Problem_26_MaxGap.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

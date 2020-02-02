@@ -1,8 +1,8 @@
 package chapter3_binary_tree_problem;
 
 public class Problem_06_LongestPathSum {
-    private static boolean getMaxLength(Node head, int sum) {
-
+    private static int getMaxLength(Node head, int sum) {
+        return 0;
     }
 
     // for test -- print tree
