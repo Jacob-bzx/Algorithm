@@ -3,7 +3,21 @@ package chapter8_array_and_matrix;
 public class Problem_16_SubArrayMaxSum {
 
 	public static int maxSum(int[] arr) {
-		return 0;
+		if(arr==null||arr.length==0){
+			return 0;
+		}
+		int res = arr[0];
+		int sum = arr[0];
+		for (int i = 1; i < arr.length; i++) {
+			if (sum <= 0) {
+				sum=arr[i];
+
+			} else {
+				sum+=arr[i];
+			}
+			res = Math.max(res, sum);
+		}
+		return res;
 	}
 
 	public static void printArray(int[] arr) {

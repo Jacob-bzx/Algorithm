@@ -3,7 +3,28 @@ package chapter8_array_and_matrix;
 public class Problem_10_LongestSumSubArrayLengthInPositiveArray {
 
 	public static int getMaxLength(int[] arr, int k) {
-		return 0;
+		if (arr == null || arr.length == 0 || k < 1) {
+			return 0;
+		}
+		int res = 0;
+		int left = 0, right = 0;
+		int sum = arr[0];
+		while (right < arr.length) {
+			if (sum == k) {
+				res = Math.max(res, right - left+1);
+				sum -= arr[left++];
+			} else if (sum < k) {
+				right++;
+				if (right == arr.length) {
+					break;
+				}
+				sum += arr[right];
+			} else {
+				sum -= arr[left++];
+			}
+		}
+
+		return res;
 	}
 
 	public static int[] generatePositiveArray(int size) {
