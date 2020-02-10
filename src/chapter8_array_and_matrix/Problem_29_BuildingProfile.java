@@ -78,7 +78,7 @@ public class Problem_29_BuildingProfile {
 
 
     public static void main(String[] args) {
-        int[][] arr = {{2, 5, 6}, {1, 7, 4,}, {4, 6, 7}, {3, 6, 5}, {10, 13, 2}, {9, 11, 3}, {12, 14, 4}, {10, 12, 5}};
+        int[][] arr = {{2, 5, 6}, {1, 7, 4}, {4, 6, 7}, {3, 6, 5}, {10, 13, 2}, {9, 11, 3}, {12, 14, 4}, {10, 12, 5}};
         System.out.println(getBuildingProfile(arr));
     }
 }
