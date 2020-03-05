@@ -1,8 +1,40 @@
 package chapter3_binary_tree_problem;
 
+import java.util.HashMap;
+
 public class Problem_06_LongestPathSum {
+    static int res;
+    static HashMap<Integer, Integer> map;
+
     private static int getMaxLength(Node head, int sum) {
-        return 0;
+        map = new HashMap<>();
+        res=0;
+        if (head == null) {
+            return 0;
+        }
+        map.put(0, -1);
+        dfs(head, sum, 0, 0);
+        return res;
+    }
+
+    private static void dfs(Node head, int targetSum, int curSum, int height) {
+        curSum += head.value;
+        int diff = curSum - targetSum;
+
+        if (map.containsKey(diff)) {
+            res = Math.max(res, height - map.get(diff));
+        }
+        map.putIfAbsent(curSum, height);
+
+        if (head.left != null) {
+            dfs(head.left, targetSum, curSum, height + 1);
+        }
+        if (head.right != null) {
+            dfs(head.right, targetSum, curSum, height + 1);
+        }
+        if (map.get(curSum) == height) {
+            map.remove(curSum);
+        }
     }
 
     // for test -- print tree
